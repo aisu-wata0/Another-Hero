@@ -15,12 +15,15 @@ int main()
 
 	// pc character
 	Character pc;
+
+	// pc sprite
 	pc.sprite.setSize(sf::Vector2f(TileSizef, TileSizef));
 	sf::Texture pcTexture;
 	pcTexture.loadFromFile("Textures/PIxelantasy/Characters/Soldier/PNG/Soldier.png");
 	pc.sprite.setTexture(&pcTexture);
 	pc.setPosition(BoardSize/2, BoardSize/2);
 
+	// side menu
 	sf::RectangleShape sideMenu(
 		sf::Vector2f(WindowWidth - WindowHeight, WindowHeight));
 	sideMenu.setFillColor(sf::Color::Color(124, 60, 0));
@@ -58,7 +61,7 @@ int main()
 		pc.sprite.getPosition();
 		// PC Movement
 		if (movementTimer.getElapsedTime().asMilliseconds() >= movementRate) {
-
+			// checks W A S D and moves accordinglly, if not at border already
 			if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)
 				&& pc.getPosition().x < (BoardSize - 1)) {
 

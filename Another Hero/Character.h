@@ -7,12 +7,15 @@ class Character
 	sf::Vector2i position;
 
 public:
-	sf::RectangleShape sprite;
 	char name[24];
+	long level;
 	bool party_leader;
+
 	Stats getStats();
 	void setStats(Stats);
 	void levelUp();
+
+	sf::RectangleShape sprite;
 	const sf::Vector2i& getPosition();
 	void setPosition(int, int);
 	void move(int, int);
