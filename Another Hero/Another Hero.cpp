@@ -5,13 +5,6 @@
 #include "Stats.h"
 #include "Character.h"
 
-#define movementRate 192.0f
-#define WindowWidth 1280
-#define WindowHeight 720
-#define BoardSize 9
-#define TileSizef WindowHeight/BoardSize
-
-
 int main()
 {
 	// render main window
@@ -21,14 +14,12 @@ int main()
 		sf::Style::Close);
 
 	// pc character
-	/* TODO make class have
-	discrete values for position (mult by TileSize)*/
 	Character pc;
 	pc.sprite.setSize(sf::Vector2f(TileSizef, TileSizef));
 	sf::Texture pcTexture;
 	pcTexture.loadFromFile("Textures/PIxelantasy/Characters/Soldier/PNG/Soldier.png");
 	pc.sprite.setTexture(&pcTexture);
-	pc.sprite.setPosition(4 * TileSizef, 4 * TileSizef);
+	pc.setPosition(BoardSize/2, BoardSize/2);
 
 	sf::RectangleShape sideMenu(
 		sf::Vector2f(WindowWidth - WindowHeight, WindowHeight));
@@ -64,32 +55,32 @@ int main()
 			}
 
 		}
-		
+		pc.sprite.getPosition();
 		// PC Movement
 		if (movementTimer.getElapsedTime().asMilliseconds() >= movementRate) {
 
 			if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)
-				&& pc.sprite.getPosition().x < (BoardSize - 1)*TileSizef) {
+				&& pc.getPosition().x < (BoardSize - 1)) {
 
-				pc.sprite.move(TileSizef, 0.0f);
+				pc.move(1, 0);
 				movementTimer.restart();
 			}
 			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)
-				&& pc.sprite.getPosition().y < (BoardSize - 1)*TileSizef) {
+				&& pc.getPosition().y < (BoardSize - 1)) {
 
-				pc.sprite.move(0.0f, TileSizef);
+				pc.move(0, 1);
 				movementTimer.restart();
 			}
 			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)
-				&& pc.sprite.getPosition().x > 0.0f) {
+				&& pc.getPosition().x > 0) {
 
-				pc.sprite.move(-TileSizef, 0.0f);
+				pc.move(-1, 0);
 				movementTimer.restart();
 			}
 			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)
-				&& pc.sprite.getPosition().y > 0.0f) {
+				&& pc.getPosition().y > 0) {
 
-				pc.sprite.move(0.0f, -TileSizef);
+				pc.move(0, -1);
 				movementTimer.restart();
 			}
 
