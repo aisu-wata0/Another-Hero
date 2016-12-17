@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 
-#define movementRate 128.0f
+#define movementRate 192.0f
 #define WindowWidth 1280
 #define WindowHeight 720
 #define BoardSize 9
@@ -19,7 +19,7 @@ int main()
 		sf::Style::Close);
 
 	// pc character
-	/*TODO make a Character class,
+	/* TODO make a Character class,
 	discrete values for position (mult by TileSize)*/
 	sf::CircleShape pc(TileSizef/2);
 	pc.setFillColor(sf::Color::White);
@@ -42,39 +42,46 @@ int main()
 		while (window.pollEvent(event))
 		{
 
-			if (event.type == sf::Event::Closed)
+			switch (event.type)
+			{
+			case sf::Event::Closed:
 				window.close();
+				break;
 
-			
-			if (event.type == sf::Event::KeyPressed) {
+			case sf::Event::KeyPressed:
+				// TODO Add key press events
+				break;
+			}
 
-				// Movement
-				if (movementTimer.getElapsedTime().asMilliseconds() >= movementRate) {
+		}
 
-					if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)
-					&& pc.getPosition().x < (BoardSize - 1)*TileSizef) {
-						pc.move(TileSizef, 0.0f);
-						//movementTimer = movementRate;
-						movementTimer.restart();
-					}
-					else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)
-					&& pc.getPosition().y < (BoardSize - 1)*TileSizef) {
-						pc.move(0.0f, TileSizef);
-						movementTimer.restart();
-					}
-					else if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)
-					&& pc.getPosition().x > 0.0f) {
-						pc.move(-TileSizef, 0.0f);
-						movementTimer.restart();
-					}
-					else if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)
-					&& pc.getPosition().y > 0.0f) {
-						pc.move(0.0f, -TileSizef);
-						movementTimer.restart();
-					}
+		// Movement
+		if (movementTimer.getElapsedTime().asMilliseconds() >= movementRate) {
 
-				}
-			} // end if (event.type == sf::Event::KeyPressed)
+			if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)
+				&& pc.getPosition().x < (BoardSize - 1)*TileSizef) {
+
+				pc.move(TileSizef, 0.0f);
+				movementTimer.restart();
+			}
+			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)
+				&& pc.getPosition().y < (BoardSize - 1)*TileSizef) {
+
+				pc.move(0.0f, TileSizef);
+				movementTimer.restart();
+			}
+			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)
+				&& pc.getPosition().x > 0.0f) {
+
+				pc.move(-TileSizef, 0.0f);
+				movementTimer.restart();
+			}
+			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)
+				&& pc.getPosition().y > 0.0f) {
+
+				pc.move(0.0f, -TileSizef);
+				movementTimer.restart();
+			}
 
 		}
 
