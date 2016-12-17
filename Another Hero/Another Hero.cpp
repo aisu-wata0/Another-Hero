@@ -5,7 +5,7 @@
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(200, 200), "Another Hero");
+	sf::RenderWindow window(sf::VideoMode(1280, 720), "Another Hero", sf::Style::Close);
 	sf::CircleShape shape(100.f);
 	shape.setFillColor(sf::Color::Green);
 
