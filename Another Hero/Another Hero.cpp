@@ -31,7 +31,6 @@ int main()
 
 	// timers
 	sf::Clock movementTimer;
-	//sf::Int32 movementTimer = 0;
 		
 	while (window.isOpen())
 	{
@@ -42,6 +41,7 @@ int main()
 		sf::Event event;
 		while (window.pollEvent(event))
 		{
+
 			if (event.type == sf::Event::Closed)
 				window.close();
 
@@ -49,12 +49,7 @@ int main()
 			if (event.type == sf::Event::KeyPressed) {
 
 				// Movement
-				/*if (movementTimer > 0.0f) {
-				movementTimer -= elapsedTime.asMilliseconds();
-				}*/
-
 				if (movementTimer.getElapsedTime().asMilliseconds() >= movementRate) {
-					//if (movementTimer <= 0.0f){
 
 					if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)
 					&& pc.getPosition().x < (BoardSize - 1)*TileSizef) {
