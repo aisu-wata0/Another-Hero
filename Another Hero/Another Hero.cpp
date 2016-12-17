@@ -21,13 +21,20 @@ int main()
 	// pc character
 	/* TODO make a Character class,
 	discrete values for position (mult by TileSize)*/
-	sf::CircleShape pc(TileSizef/2);
-	pc.setFillColor(sf::Color::White);
+	sf::RectangleShape pc(sf::Vector2f(TileSizef, TileSizef));
+	sf::Texture pcTexture;
+	pcTexture.loadFromFile("Textures/PIxelantasy/Characters/Soldier/PNG/Soldier.png");
+	pc.setTexture(&pcTexture);
 	pc.setPosition(4 * TileSizef, 4 * TileSizef);
+
+	sf::RectangleShape sideMenu(
+		sf::Vector2f(WindowWidth - WindowHeight, WindowHeight));
+	sideMenu.setFillColor(sf::Color::Color(124, 60, 0));
+	sideMenu.setPosition(WindowHeight, 0.0f);
 
 	// game loop clock
 	sf::Clock clock;
-	sf::Int32 elapsedTime;
+	sf::Int64 elapsedTime;
 
 	// timers
 	sf::Clock movementTimer;
@@ -88,6 +95,7 @@ int main()
 		window.clear();
 
 		// draw all objects
+		window.draw(sideMenu);
 		window.draw(pc);
 
 		window.display();

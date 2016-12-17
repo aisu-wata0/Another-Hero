@@ -16,6 +16,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="Textures\Icons34x34byAilsEnglish2013\Readme.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -32,5 +35,1213 @@
     <ClCompile Include="Another Hero.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Armor04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Armor05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Armour01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Armour02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Armour03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Clothing01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Clothing02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Shoes01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Shoes02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Shoes03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Shoes04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Shoes05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Shoes06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\A_Shoes07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Medal01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Medal02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Medal03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Medal04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Necklace01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Necklace02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Necklace03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Necklace04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Ring04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\C_Elm01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\C_Elm03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\C_Elm04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\C_Hat01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\C_Hat02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Bones02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Bones03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Gold01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Gold02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Metal01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Metal02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Metal03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Metal04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Metal05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Wood01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Wood02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Wood03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\E_Wood04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Agate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Amethist.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Antidote.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_BatWing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_BirdsBeak.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Bone.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Book.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Bottle01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Bottle02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Bottle03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Bottle04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_BronzeBar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_BronzeCoin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Banana.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Bread.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Carrot.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Cheese.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Cherry.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Fish.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Grapes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_GreenGrapes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_GreenPepper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Lemon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Meat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Mulberry.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Mushroom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Nut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Orange.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Pear.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Pie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Pineapple.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Radish.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_RawFish.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_RawMeat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_RedPepper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Strawberry.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_Watermellon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_C_YellowPepper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Cannon01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Cannon02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Cannon03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Cannon04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Cannon05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Chest01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Chest02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Coal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Crystal01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Crystal02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Crystal03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Diamond.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Eye.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Fabric.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Fang.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Feather01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Feather02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_FishTail.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_FoxTail.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_FrogLeg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_GoldBar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_GoldCoin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Ink.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_IronBall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Jade.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Key01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Key02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Key03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Key04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Key05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Key06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Key07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Leaf.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Map.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Mirror.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Opal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Rock01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Rock02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Rock03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Rock04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Rock05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Rubi.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Saphire.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_ScorpionClaw.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Scroll.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Scroll02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_SilverBar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_SilverCoin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_SnailShell.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_SolidShell.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Telescope.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Tentacle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Torch01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Torch02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_Water.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\I_WolfFur.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Blue01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Blue02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Blue03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Blue04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Green01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Green02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Green03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Green04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Medicine01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Medicine02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Medicine03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Medicine04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Medicine05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Medicine06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Medicine07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Medicine08.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Medicine09.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Orange01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Orange02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Orange03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Orange04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Pink01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Pink02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Pink03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Pink04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Red01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Red02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Red03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Red04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_White01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_White02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_White03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_White04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Yellow01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Yellow02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Yellow03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\P_Yellow04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow08.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow09.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Bow14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff08.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff09.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Buff14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Death01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Death02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Earth01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Earth02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Earth03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Earth04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Earth05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Earth06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Earth07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Fire01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Fire02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Fire03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Fire04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Fire05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Fire06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Fire07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Holy01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Holy02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Holy03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Holy04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Holy05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Holy06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Holy07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Ice01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Ice02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Ice03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Ice04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Ice05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Ice06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Ice07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Light01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Light02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Light03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Magic01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Magic02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Magic03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Magic04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Physic01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Physic02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Poison01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Poison02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Poison03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Poison04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Poison05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Poison06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Poison07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Shadow01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Shadow02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Shadow03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Shadow04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Shadow05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Shadow06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Shadow07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword08.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword09.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Sword10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Thunder01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Thunder02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Thunder03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Thunder04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Thunder05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Thunder06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Thunder07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Water01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Water02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Water03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Water04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Water05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Water06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Water07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Wind01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Wind02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Wind03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Wind04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Wind05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Wind06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\S_Wind07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe008.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe009.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe010.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe011.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe012.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe013.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Axe014.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Book01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Book02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Book03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Book04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Book05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Book06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Book07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow08.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow09.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Bow14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger008.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger009.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger010.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger011.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger012.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger013.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger014.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger015.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger016.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger017.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger018.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger019.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger020.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Dagger021.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Fist001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Fist002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Fist003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Fist004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Fist005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Gun001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Gun002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Gun003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace008.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace009.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace010.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace011.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace012.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace013.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Mace014.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear008.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear009.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear010.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear011.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear012.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear013.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Spear014.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword008.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword009.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword010.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword011.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword012.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword013.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword014.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword015.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword016.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword017.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword018.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword019.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword020.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Sword021.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Throw001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Throw002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Throw003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Throw004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Throw05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
