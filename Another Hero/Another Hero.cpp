@@ -2,6 +2,8 @@
 //
 
 #include "stdafx.h"
+#include "Stats.h"
+#include "Character.h"
 
 #define movementRate 192.0f
 #define WindowWidth 1280
@@ -19,13 +21,14 @@ int main()
 		sf::Style::Close);
 
 	// pc character
-	/* TODO make a Character class,
+	/* TODO make class have
 	discrete values for position (mult by TileSize)*/
-	sf::RectangleShape pc(sf::Vector2f(TileSizef, TileSizef));
+	Character pc;
+	pc.sprite.setSize(sf::Vector2f(TileSizef, TileSizef));
 	sf::Texture pcTexture;
 	pcTexture.loadFromFile("Textures/PIxelantasy/Characters/Soldier/PNG/Soldier.png");
-	pc.setTexture(&pcTexture);
-	pc.setPosition(4 * TileSizef, 4 * TileSizef);
+	pc.sprite.setTexture(&pcTexture);
+	pc.sprite.setPosition(4 * TileSizef, 4 * TileSizef);
 
 	sf::RectangleShape sideMenu(
 		sf::Vector2f(WindowWidth - WindowHeight, WindowHeight));
@@ -61,32 +64,32 @@ int main()
 			}
 
 		}
-
-		// Movement
+		
+		// PC Movement
 		if (movementTimer.getElapsedTime().asMilliseconds() >= movementRate) {
 
 			if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)
-				&& pc.getPosition().x < (BoardSize - 1)*TileSizef) {
+				&& pc.sprite.getPosition().x < (BoardSize - 1)*TileSizef) {
 
-				pc.move(TileSizef, 0.0f);
+				pc.sprite.move(TileSizef, 0.0f);
 				movementTimer.restart();
 			}
 			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)
-				&& pc.getPosition().y < (BoardSize - 1)*TileSizef) {
+				&& pc.sprite.getPosition().y < (BoardSize - 1)*TileSizef) {
 
-				pc.move(0.0f, TileSizef);
+				pc.sprite.move(0.0f, TileSizef);
 				movementTimer.restart();
 			}
 			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)
-				&& pc.getPosition().x > 0.0f) {
+				&& pc.sprite.getPosition().x > 0.0f) {
 
-				pc.move(-TileSizef, 0.0f);
+				pc.sprite.move(-TileSizef, 0.0f);
 				movementTimer.restart();
 			}
 			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)
-				&& pc.getPosition().y > 0.0f) {
+				&& pc.sprite.getPosition().y > 0.0f) {
 
-				pc.move(0.0f, -TileSizef);
+				pc.sprite.move(0.0f, -TileSizef);
 				movementTimer.restart();
 			}
 
@@ -96,7 +99,7 @@ int main()
 
 		// draw all objects
 		window.draw(sideMenu);
-		window.draw(pc);
+		window.draw(pc.sprite);
 
 		window.display();
 	}
