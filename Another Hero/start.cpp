@@ -56,10 +56,10 @@ Start::Start(sf::RenderWindow* window) {
 
 	//Play menu item coordinates
 	MenuItem playButton;
-	playButton.rect.left = 0;
-	playButton.rect.top = 145;
-	playButton.rect.width = 1023;
-	playButton.rect.height = 380;
+	playButton.rect.left = 418;
+	playButton.rect.top = 250;
+	playButton.rect.width = 861;
+	playButton.rect.height = 329;
 	playButton.action = kSummonHero;
 
 	//Exit menu item coordinates
