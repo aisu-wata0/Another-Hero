@@ -7,6 +7,19 @@
 
 int main()
 {
+
+	enum GameState {
+		Start, WorldMap,
+		Encounter, Exiting
+	};
+
+	enum MenuState {
+		Settings, Inventory,
+		Party, Skills, Status
+	};
+
+	GameState game_state = Start;
+
 	// render main window
 	sf::RenderWindow window(
 		sf::VideoMode(WindowWidth, WindowHeight),
@@ -29,18 +42,15 @@ int main()
 	sideMenu.setFillColor(sf::Color::Color(124, 60, 0));
 	sideMenu.setPosition(WindowHeight, 0.0f);
 
-	// game loop clock
-	sf::Clock clock;
-	sf::Int64 elapsedTime;
-
 	// timers
+	// TODO, make this a part of a pc class
+	// make move method, getPosition etc. all part of it, remove it from 
+	// Character class
 	sf::Clock movementTimer;
 		
 	while (window.isOpen())
 	{
-		// get elapsedTime since last loop
-		elapsedTime = clock.restart().asMicroseconds();
-
+		
 		// treat events
 		sf::Event event;
 		while (window.pollEvent(event))
