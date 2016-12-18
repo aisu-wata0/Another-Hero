@@ -8,31 +8,31 @@ void World::Event()
 void World::Loop()
 {
 	// PC Movement
-	if (movementTimer.getElapsedTime().asMilliseconds() >= movementRate) {
+	if (movement_timer_.getElapsedTime().asMilliseconds() >= movementRate) {
 		// checks W A S D and moves accordinglly, if not at border already
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)
-			&& pc.getPosition().x < (BoardSize - 1)) {
+			&& pc_.getPosition().x < (BoardSize - 1)) {
 
-			pc.move(1, 0);
-			movementTimer.restart();
+			pc_.move(1, 0);
+			movement_timer_.restart();
 		}
 		else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)
-			&& pc.getPosition().y < (BoardSize - 1)) {
+			&& pc_.getPosition().y < (BoardSize - 1)) {
 
-			pc.move(0, 1);
-			movementTimer.restart();
+			pc_.move(0, 1);
+			movement_timer_.restart();
 		}
 		else if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)
-			&& pc.getPosition().x > 0) {
+			&& pc_.getPosition().x > 0) {
 
-			pc.move(-1, 0);
-			movementTimer.restart();
+			pc_.move(-1, 0);
+			movement_timer_.restart();
 		}
 		else if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)
-			&& pc.getPosition().y > 0) {
+			&& pc_.getPosition().y > 0) {
 
-			pc.move(0, -1);
-			movementTimer.restart();
+			pc_.move(0, -1);
+			movement_timer_.restart();
 		}
 
 	}
@@ -40,8 +40,8 @@ void World::Loop()
 	window_->clear();
 
 	// draw all objects
-	window_->draw(sideMenu);
-	window_->draw(pc.sprite);
+	window_->draw(side_menu_);
+	window_->draw(pc_.sprite);
 
 	window_->display();
 
@@ -50,17 +50,17 @@ void World::Loop()
 World::World(sf::RenderWindow* window){
 	window_ = window;
 
-	// pc sprite
-	pc.sprite.setSize(sf::Vector2f(TileSizef, TileSizef));
-	pcTexture.loadFromFile("Textures/PIxelantasy/Characters/Soldier/PNG/Soldier.png");
-	pc.sprite.setTexture(&pcTexture);
-	pc.setPosition(BoardSize / 2, BoardSize / 2);
+	// pc_ sprite
+	pc_.sprite.setSize(sf::Vector2f(TileSizef, TileSizef));
+	pc_texture_.loadFromFile("Textures/PIxelantasy/Characters/Soldier/PNG/Soldier.png");
+	pc_.sprite.setTexture(&pc_texture_);
+	pc_.setPosition(BoardSize / 2, BoardSize / 2);
 
 	// side menu
-	sideMenu = sf::RectangleShape(sf::Vector2f(
+	side_menu_ = sf::RectangleShape(sf::Vector2f(
 		WindowWidth - WindowHeight, // x
 		WindowHeight)); // y
-	sideMenu.setFillColor(sf::Color::Color(124, 60, 0));
-	sideMenu.setPosition(WindowHeight, 0.0f);
+	side_menu_.setFillColor(sf::Color::Color(124, 60, 0));
+	side_menu_.setPosition(WindowHeight, 0.0f);
 
 }

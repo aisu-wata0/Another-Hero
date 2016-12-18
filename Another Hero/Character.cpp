@@ -1,46 +1,36 @@
 #include "StdAfx.h"
 
-Stats Character::getStats()
-{
-	return stats;
-}
-
-void Character::setStats(Stats value)
-{
-	stats = value;
-}
-
 void Character::levelUp()
 {
-	level++;
-	stats.levelUp();
+	level_++;
+	stats_.levelUp();
 }
 
 void Character::setPosition(int X, int Y)
 {
-	// changes internal position
-	position.x = X;
-	position.y = Y;
+	// changes internal position_
+	position_.x = X;
+	position_.y = Y;
 
-	// changes sprite position
+	// changes sprite position_
 	sprite.setPosition(
-		(float)position.x * TileSizef,
-		(float)position.y * TileSizef);
+		(float)position_.x * TileSizef,
+		(float)position_.y * TileSizef);
 }
 
 void Character::move(int X, int Y)
 {
-	// changes internal position
-	position.x += X;
-	position.y += Y;
+	// changes internal position_
+	position_.x += X;
+	position_.y += Y;
 
-	// changes sprite position
+	// changes sprite position_
 	sprite.setPosition(
-		(float)position.x * TileSizef,
-		(float)position.y * TileSizef);
+		(float)position_.x * TileSizef,
+		(float)position_.y * TileSizef);
 }
 
 const sf::Vector2i& Character::getPosition()
 {
-	return position;
+	return position_;
 }

@@ -4,11 +4,11 @@ class World
 {
 	sf::RenderWindow* window_;
 
-	Character pc;
-	sf::Texture pcTexture;
+	Character pc_;
+	sf::Texture pc_texture_;
 
-	sf::Clock movementTimer;
-	sf::RectangleShape sideMenu;	
+	sf::Clock movement_timer_;
+	sf::RectangleShape side_menu_;	
 
 public:
 	void Event();

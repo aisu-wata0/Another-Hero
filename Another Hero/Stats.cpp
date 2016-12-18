@@ -2,11 +2,11 @@
 
 void Stats::levelUp() 
 {
-	hpl = (long)round(hpl*1.48);
-	mpl = (long)round(mpl*1.48);
-	strl = (long)round(strl*1.48);
-	defl = (long)round(defl*1.48);
-	intl = (long)round(intl*1.48);
-	resl = (long)round(resl*1.48);
-	agil = (long)round(agil*1.48);
+	hp_ = (long)round(hp_*1.48);
+	mp_ = (long)round(mp_*1.48);
+	str_ = (long)round(str_*1.48);
+	def_ = (long)round(def_*1.48);
+	int_ = (long)round(int_*1.48);
+	res_ = (long)round(res_*1.48);
+	agi_ = (long)round(agi_*1.48);
 }

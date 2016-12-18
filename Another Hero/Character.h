@@ -2,16 +2,14 @@
 
 class Character
 {
-	Stats stats;
-	sf::Vector2i position;
+	Stats stats_;
+	sf::Vector2i position_;
 
 public:
-	char name[24];
-	long level;
-	bool party_leader;
+	char name_[24];
+	long level_;
+	bool party_leader_;
 
-	Stats getStats();
-	void setStats(Stats);
 	void levelUp();
 
 	sf::RectangleShape sprite;

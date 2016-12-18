@@ -1,4 +1,4 @@
-// Another Hero.cpp : Defines the entry point for the console application.
+// another_hero.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
