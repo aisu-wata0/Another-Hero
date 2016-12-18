@@ -10,7 +10,7 @@ int main()
 
 	// render main window
 	sf::RenderWindow window(
-		sf::VideoMode(WindowWidth, WindowHeight),
+		sf::VideoMode(kWindowWidth, kWindowHeight),
 		"Another Hero",
 		sf::Style::Close);
 	//window.setFramerateLimit(60);

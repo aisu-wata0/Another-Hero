@@ -23,6 +23,7 @@ private:
 
 	sf::String pc_name_;
 	sf::Text pc_name_text_;
+	sf::Font font;
 	MenuResult HandleClick(sf::Event::MouseButtonEvent);
 
 	std::list<MenuItem> menu_items_;

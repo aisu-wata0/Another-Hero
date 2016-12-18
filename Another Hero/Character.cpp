@@ -14,8 +14,8 @@ void Character::setPosition(int X, int Y)
 
 	// changes sprite position_
 	sprite.setPosition(
-		(float)position_.x * TileSizef,
-		(float)position_.y * TileSizef);
+		(float)position_.x * kTileSizef,
+		(float)position_.y * kTileSizef);
 }
 
 void Character::move(int X, int Y)
@@ -26,8 +26,8 @@ void Character::move(int X, int Y)
 
 	// changes sprite position_
 	sprite.setPosition(
-		(float)position_.x * TileSizef,
-		(float)position_.y * TileSizef);
+		(float)position_.x * kTileSizef,
+		(float)position_.y * kTileSizef);
 }
 
 const sf::Vector2i& Character::getPosition()

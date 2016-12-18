@@ -1,5 +1,16 @@
 #include "StdAfx.h"
 #include "start.h"
+void inputText(sf::String* pstr, char c, int max) {
+	if (c < 128) {
+		// handle backspace
+		if (c == '\b' && (pstr->getSize() > 0)) {
+			pstr->erase(pstr->getSize() - 1, 1);
+		}
+		else if(pstr->getSize() < max) {
+			*pstr += c;
+		}
+	}
+} // TODO make a TextInput class
 
 GameState Start::Event(sf::Event event)
 {
@@ -18,9 +29,16 @@ GameState Start::Event(sf::Event event)
 		}
 		break;
 
-	case sf::Event::KeyPressed:
-		pc_name_ += event.text.unicode;
+	case sf::Event::TextEntered:
+		char c = static_cast<char>(event.text.unicode);
+		inputText(&pc_name_, c,24);
+
 		pc_name_text_.setString(pc_name_);
+		printf("%lf", pc_name_text_.getGlobalBounds().width);
+		pc_name_text_.setPosition(
+			(kWindowWidth - pc_name_text_.getGlobalBounds().width)/2,
+			190);
+		// TODO make 190 a constant
 	}
 	
 	return kStart;
@@ -30,7 +48,7 @@ GameState Start::Event(sf::Event event)
 void Start::Loop()
 {
 	window_->draw(sprite);
-	//window_->draw(pc_name_text_);
+	window_->draw(pc_name_text_);
 }
 
 Start::MenuResult Start::HandleClick(sf::Event::MouseButtonEvent mouse)
@@ -55,16 +73,16 @@ Start::MenuResult Start::HandleClick(sf::Event::MouseButtonEvent mouse)
 Start::Start(sf::RenderWindow* window) {
 	window_ = window;
 	
-	sf::Font font;
 
-	if (!font.loadFromFile("Fonts/calibri.ttf"))
-	{
-		// error...
-	}
+	font.loadFromFile("Fonts/Roboto-Medium.ttf");
 
-	pc_name_text_ = sf::Text("a", font, 24);
-	/*pc_name_text_.setStyle(sf::Text::Bold);
-	pc_name_text_.setColor(sf::Color::Red);*/
+	pc_name_text_ = sf::Text("Type the hero name", font);
+	pc_name_text_.setStyle(sf::Text::Bold);
+	pc_name_text_.setFillColor(sf::Color::Black);
+	pc_name_text_.setPosition(
+		(kWindowWidth - pc_name_text_.getGlobalBounds().width) / 2,
+		190);
+	// TODO make 190 a constant
 
 	//Load menu image from file
 	menu_texture.loadFromFile("Textures/mainmenu.png");

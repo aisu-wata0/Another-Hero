@@ -32,8 +32,8 @@
 #include "world.h"
 #include "encounter.h"
 
-#define movementRate 192.0f
-#define WindowWidth 1280
-#define WindowHeight 720
-#define BoardSize 9
-#define TileSizef WindowHeight/BoardSize
+#define kMovementRate 192.0f
+#define kWindowWidth 1280
+#define kWindowHeight 720
+#define kBoardSize 9
+#define kTileSizef kWindowHeight/kBoardSize
