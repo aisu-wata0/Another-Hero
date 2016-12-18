@@ -1,6 +1,7 @@
 #pragma once
 
-class Character{
+class Character
+{
 	Stats stats_;
 	sf::Vector2i position_;
 

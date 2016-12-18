@@ -1,7 +1,8 @@
 #include "StdAfx.h"
 #include "start.h"
 
-GameState Start::Event(sf::Event event){
+GameState Start::Event(sf::Event event)
+{
 	switch (event.type)
 	{
 	case sf::Event::MouseButtonPressed:

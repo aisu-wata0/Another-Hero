@@ -3,7 +3,8 @@
 
 #include "stdafx.h"
 
-int main(){
+int main()
+{
 
 	GameState game_state = kStart;
 

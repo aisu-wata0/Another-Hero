@@ -1,6 +1,7 @@
 #pragma once
 
-class World{
+class World
+{
 	sf::RenderWindow* window_;
 
 	Character pc_;
