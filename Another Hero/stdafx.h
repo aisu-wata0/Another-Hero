@@ -23,7 +23,9 @@
 #include <cassert>
 
 #include <ctgmath>
+#include <list>
 
+#include "another_hero.h"
 #include "stats.h"
 #include "character.h"
 #include "start.h"

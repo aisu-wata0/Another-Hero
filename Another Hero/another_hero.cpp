@@ -6,17 +6,7 @@
 int main()
 {
 
-	enum GameState {
-		kStart, kWorld,
-		kEncounter
-	};
-
-	enum MenuState {
-		kSettings, kInventory,
-		kParty, kSkills, kStatus
-	};
-
-	GameState game_state = kWorld;
+	GameState game_state = kStart;
 
 	// render main window
 	sf::RenderWindow window(
@@ -30,13 +20,11 @@ int main()
 	World world(&window);
 	Encounter encounter(&window);
 
-	while (window.isOpen())
-	{
+	while (window.isOpen())	{
 		
 		// treat events
 		sf::Event event;
-		while (window.pollEvent(event))
-		{
+		while (window.pollEvent(event))	{
 
 			switch (event.type)
 			{
@@ -49,7 +37,7 @@ int main()
 			switch (game_state)
 			{
 			case kStart:
-				start.Event();
+				game_state = start.Event(event);
 				break;
 
 			case kWorld:
@@ -63,6 +51,9 @@ int main()
 
 		} // end while (window.pollEvent(event))
 
+		window.clear();
+
+		// Loops draw objects
 		switch (game_state)
 		{
 		case kStart:
@@ -77,6 +68,8 @@ int main()
 			encounter.Loop();
 			break;
 		}
+
+		window.display();
 
 	}
 

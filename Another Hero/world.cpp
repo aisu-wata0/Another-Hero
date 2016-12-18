@@ -37,14 +37,9 @@ void World::Loop()
 
 	}
 
-	window_->clear();
-
 	// draw all objects
 	window_->draw(side_menu_);
 	window_->draw(pc_.sprite);
-
-	window_->display();
-
 }
 
 World::World(sf::RenderWindow* window){

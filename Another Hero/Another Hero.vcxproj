@@ -158,6 +158,7 @@
     <ClInclude Include="stats.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="another_hero.h" />
     <ClInclude Include="world.h" />
   </ItemGroup>
   <ItemGroup>
@@ -577,6 +578,7 @@
     <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Throw003.png" />
     <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Throw004.png" />
     <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Throw05.png" />
+    <Image Include="Textures\mainmenu.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -42,6 +42,9 @@
     <ClInclude Include="character.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="another_hero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -1271,6 +1274,9 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="Textures\Icons34x34byAilsEnglish2013\W_Throw05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\mainmenu.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
