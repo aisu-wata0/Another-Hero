@@ -3,8 +3,9 @@
 
 GameState Start::Event(sf::Event event)
 {
-	if (event.type == sf::Event::MouseButtonPressed)
+	switch (event.type)
 	{
+	case sf::Event::MouseButtonPressed:
 		switch (HandleClick(event.mouseButton))
 		{
 		case kSummonHero:
@@ -15,6 +16,11 @@ GameState Start::Event(sf::Event event)
 
 			break;
 		}
+		break;
+
+	case sf::Event::KeyPressed:
+		pc_name_ += event.text.unicode;
+		pc_name_text_.setString(pc_name_);
 	}
 	
 	return kStart;
@@ -24,6 +30,7 @@ GameState Start::Event(sf::Event event)
 void Start::Loop()
 {
 	window_->draw(sprite);
+	//window_->draw(pc_name_text_);
 }
 
 Start::MenuResult Start::HandleClick(sf::Event::MouseButtonEvent mouse)
@@ -47,6 +54,17 @@ Start::MenuResult Start::HandleClick(sf::Event::MouseButtonEvent mouse)
 
 Start::Start(sf::RenderWindow* window) {
 	window_ = window;
+	
+	sf::Font font;
+
+	if (!font.loadFromFile("Fonts/calibri.ttf"))
+	{
+		// error...
+	}
+
+	pc_name_text_ = sf::Text("a", font, 24);
+	/*pc_name_text_.setStyle(sf::Text::Bold);
+	pc_name_text_.setColor(sf::Color::Red);*/
 
 	//Load menu image from file
 	menu_texture.loadFromFile("Textures/mainmenu.png");

@@ -21,6 +21,8 @@ private:
 	sf::Texture menu_texture;
 	sf::Sprite sprite;
 
+	sf::String pc_name_;
+	sf::Text pc_name_text_;
 	MenuResult HandleClick(sf::Event::MouseButtonEvent);
 
 	std::list<MenuItem> menu_items_;

@@ -21,7 +21,30 @@ int main()
 	Encounter encounter(&window);
 
 	while (window.isOpen())	{
-		
+
+		window.clear();
+
+		// Loop() draws objects
+		switch (game_state)
+		{
+		case kStart:
+			start.Loop();
+			break;
+
+		case kWorld:
+			world.Loop();
+			break;
+
+		case kEncounter:
+			//if (game_state != prev_game_state) {
+			//	//.Init();
+			//} TODO, add prev_game_state and make state Initializers
+			encounter.Loop();
+			break;
+		}
+
+		window.display();
+
 		// treat events
 		sf::Event event;
 		while (window.pollEvent(event))	{
@@ -31,7 +54,7 @@ int main()
 			case sf::Event::Closed:
 				window.close();
 				break;
-			// Add more state independent events here
+			// state independent events here
 			}
 
 			switch (game_state)
@@ -47,29 +70,10 @@ int main()
 			case kEncounter:
 				encounter.Event();
 				break;
+			// state specific events here
 			}
 
 		} // end while (window.pollEvent(event))
-
-		window.clear();
-
-		// Loops draw objects
-		switch (game_state)
-		{
-		case kStart:
-			start.Loop();
-			break;
-
-		case kWorld:
-			world.Loop();
-			break;
-
-		case kEncounter:
-			encounter.Loop();
-			break;
-		}
-
-		window.display();
 
 	}
 
