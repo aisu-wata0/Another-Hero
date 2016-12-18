@@ -1,7 +1,6 @@
 #pragma once
 
-class Encounter
-{
+class Encounter{
 	sf::RenderWindow* window_;
 
 public:

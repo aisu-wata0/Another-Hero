@@ -10,6 +10,6 @@ void Encounter::Loop()
 	
 }
 
-Encounter::Encounter(sf::RenderWindow* window) {
+Encounter::Encounter(sf::RenderWindow* window){
 	window_ = window;
 }

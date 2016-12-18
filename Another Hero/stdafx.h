@@ -35,5 +35,5 @@
 #define movementRate 192.0f
 #define WindowWidth 1280
 #define WindowHeight 720
-#define BoardSize 9
+#define BoardSize 10
 #define TileSizef WindowHeight/BoardSize

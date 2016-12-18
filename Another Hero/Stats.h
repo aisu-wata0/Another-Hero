@@ -1,7 +1,6 @@
 #pragma once
 
-class Stats
-{
+class Stats{
 	long hp_;
 	long mp_;
 	long str_;

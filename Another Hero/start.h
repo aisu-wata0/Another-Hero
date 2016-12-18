@@ -1,7 +1,6 @@
 #pragma once
 
-class Start
-{
+class Start{
 public:
 	enum MenuResult { kNothing, kSummonHero, kHallOfFame};
 

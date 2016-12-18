@@ -1,7 +1,6 @@
 #include "StdAfx.h"
 
-void Character::levelUp()
-{
+void Character::levelUp(){
 	level_++;
 	stats_.levelUp();
 }

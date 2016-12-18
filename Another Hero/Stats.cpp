@@ -1,7 +1,6 @@
 #include "StdAfx.h"
 
-void Stats::levelUp() 
-{
+void Stats::levelUp() {
 	hp_ = (long)round(hp_*1.48);
 	mp_ = (long)round(mp_*1.48);
 	str_ = (long)round(str_*1.48);
