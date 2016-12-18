@@ -22,6 +22,8 @@
 #include <iostream>
 #include <cassert>
 
+#include <ctgmath>
+
 #define movementRate 192.0f
 #define WindowWidth 1280
 #define WindowHeight 720

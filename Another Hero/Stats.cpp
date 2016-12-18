@@ -1,13 +1,13 @@
 #include "StdAfx.h"
-#include "Stats.h"
+#include "stats.h"
 
 void Stats::levelUp() 
 {
-	hpl *= 1.48;
-	mpl *= 1.48;
-	strl *= 1.48;
-	defl *= 1.48;
-	intl *= 1.48;
-	resl *= 1.48;
-	agil *= 1.48;
+	hpl = (long)round(hpl*1.48);
+	mpl = (long)round(mpl*1.48);
+	strl = (long)round(strl*1.48);
+	defl = (long)round(defl*1.48);
+	intl = (long)round(intl*1.48);
+	resl = (long)round(resl*1.48);
+	agil = (long)round(agil*1.48);
 }
