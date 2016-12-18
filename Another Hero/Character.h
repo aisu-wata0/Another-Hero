@@ -1,5 +1,4 @@
 #pragma once
-#include "Stats.h"
 
 class Character
 {

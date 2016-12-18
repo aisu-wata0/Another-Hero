@@ -1,5 +1,4 @@
 #include "StdAfx.h"
-#include "encounter.h"
 
 void Encounter::Event()
 {

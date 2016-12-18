@@ -5,6 +5,8 @@ class World
 	sf::RenderWindow* window_;
 
 	Character pc;
+	sf::Texture pcTexture;
+
 	sf::Clock movementTimer;
 	sf::RectangleShape sideMenu;	
 

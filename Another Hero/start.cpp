@@ -1,5 +1,4 @@
 #include "StdAfx.h"
-#include "start.h"
 
 void Start::Event()
 {

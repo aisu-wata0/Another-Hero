@@ -2,9 +2,6 @@
 //
 
 #include "stdafx.h"
-#include "Stats.h"
-#include "Character.h"
-#include "World.h"
 
 int main()
 {
@@ -19,7 +16,7 @@ int main()
 		kParty, kSkills, kStatus
 	};
 
-	GameState game_state = kStart;
+	GameState game_state = kWorld;
 
 	// render main window
 	sf::RenderWindow window(

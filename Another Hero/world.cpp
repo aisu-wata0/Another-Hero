@@ -1,6 +1,4 @@
 #include "StdAfx.h"
-#include "world.h"
-#include "character.h"
 
 void World::Event()
 {
@@ -54,7 +52,6 @@ World::World(sf::RenderWindow* window){
 
 	// pc sprite
 	pc.sprite.setSize(sf::Vector2f(TileSizef, TileSizef));
-	sf::Texture pcTexture;
 	pcTexture.loadFromFile("Textures/PIxelantasy/Characters/Soldier/PNG/Soldier.png");
 	pc.sprite.setTexture(&pcTexture);
 	pc.setPosition(BoardSize / 2, BoardSize / 2);

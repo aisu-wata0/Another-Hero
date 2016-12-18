@@ -24,6 +24,12 @@
 
 #include <ctgmath>
 
+#include "stats.h"
+#include "character.h"
+#include "start.h"
+#include "world.h"
+#include "encounter.h"
+
 #define movementRate 192.0f
 #define WindowWidth 1280
 #define WindowHeight 720

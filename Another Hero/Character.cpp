@@ -1,5 +1,4 @@
 #include "StdAfx.h"
-#include "character.h"
 
 Stats Character::getStats()
 {
