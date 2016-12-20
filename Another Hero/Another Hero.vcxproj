@@ -155,6 +155,7 @@
   <ItemGroup>
     <ClInclude Include="character.h" />
     <ClInclude Include="encounter.h" />
+    <ClInclude Include="input.h" />
     <ClInclude Include="start.h" />
     <ClInclude Include="stats.h" />
     <ClInclude Include="stdafx.h" />
@@ -166,6 +167,7 @@
     <ClCompile Include="another_hero.cpp" />
     <ClCompile Include="character.cpp" />
     <ClCompile Include="encounter.cpp" />
+    <ClCompile Include="input.cpp" />
     <ClCompile Include="start.cpp" />
     <ClCompile Include="stats.cpp" />
     <ClCompile Include="stdafx.cpp">

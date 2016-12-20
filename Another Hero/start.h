@@ -1,5 +1,7 @@
 #pragma once
 
+#define kHeroNameInputHeight 190
+
 class Start
 {
 public:

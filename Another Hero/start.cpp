@@ -1,16 +1,6 @@
 #include "StdAfx.h"
 #include "start.h"
-void inputText(sf::String* pstr, char c, int max) {
-	if (c < 128) {
-		// handle backspace
-		if (c == '\b' && (pstr->getSize() > 0)) {
-			pstr->erase(pstr->getSize() - 1, 1);
-		}
-		else if(pstr->getSize() < max) {
-			*pstr += c;
-		}
-	}
-} // TODO make a TextInput class
+#include "input.h"
 
 GameState Start::Event(sf::Event event)
 {
@@ -20,7 +10,8 @@ GameState Start::Event(sf::Event event)
 		switch (HandleClick(event.mouseButton))
 		{
 		case kSummonHero:
-			return kWorld;
+			if(pc_name_.getSize() > 0 )
+				return kWorld;
 			break;
 
 		case kHallOfFame:
@@ -30,15 +21,12 @@ GameState Start::Event(sf::Event event)
 		break;
 
 	case sf::Event::TextEntered:
-		char c = static_cast<char>(event.text.unicode);
-		inputText(&pc_name_, c,24);
 
+		Input::handleTextEvent(&pc_name_, event.text.unicode,24);
 		pc_name_text_.setString(pc_name_);
-		printf("%lf", pc_name_text_.getGlobalBounds().width);
 		pc_name_text_.setPosition(
 			(kWindowWidth - pc_name_text_.getGlobalBounds().width)/2,
-			190);
-		// TODO make 190 a constant
+			kHeroNameInputHeight);
 	}
 	
 	return kStart;
@@ -77,11 +65,11 @@ Start::Start(sf::RenderWindow* window) {
 	font.loadFromFile("Fonts/Roboto-Medium.ttf");
 
 	pc_name_text_ = sf::Text("Type the hero name", font);
-	pc_name_text_.setStyle(sf::Text::Bold);
+	pc_name_text_.setStyle(sf::Text::Style::Bold);
 	pc_name_text_.setFillColor(sf::Color::Black);
 	pc_name_text_.setPosition(
 		(kWindowWidth - pc_name_text_.getGlobalBounds().width) / 2,
-		190);
+		kHeroNameInputHeight);
 	// TODO make 190 a constant
 
 	//Load menu image from file
