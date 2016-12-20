@@ -2,6 +2,7 @@
 //
 
 #include "stdafx.h"
+#include "party.h"
 
 int main()
 {
@@ -20,7 +21,9 @@ int main()
 	World world(&window);
 	Encounter encounter(&window);
 
-	while (window.isOpen())	{
+	std::list<Party> party_list;
+
+	while (window.isOpen()) {
 
 		window.clear();
 
@@ -47,14 +50,14 @@ int main()
 
 		// treat events
 		sf::Event event;
-		while (window.pollEvent(event))	{
+		while (window.pollEvent(event)) {
 
 			switch (event.type)
 			{
 			case sf::Event::Closed:
 				window.close();
 				break;
-			// state independent events here
+				// state independent events here
 			}
 
 			switch (game_state)
@@ -70,7 +73,7 @@ int main()
 			case kEncounter:
 				encounter.Event();
 				break;
-			// state specific events here
+				// state specific events here
 			}
 
 		} // end while (window.pollEvent(event))

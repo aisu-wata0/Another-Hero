@@ -9,12 +9,13 @@ sf::String Input::handleTextEvent(sf::String str, sf::Uint32 unicode) {
 	return handleTextEvent(str, unicode, str.getSize() + 1);
 }
 
-void Input::handleTextEvent(sf::String* pstr, sf::Uint32 unicode, int max) {
+void Input::handleTextEvent(sf::String* pstr, sf::Uint32 unicode, size_t max) {
 
 	char c = static_cast<char>(unicode);
 
 	if (pstr->getSize() < max
-		&& ( (c > 0x30) && (c < 0x7a) ) ) {
+		&& ((c > 0x30) && (c < 0x7a)))
+	{
 		*pstr += c;
 	}
 	// handle backspace
@@ -23,12 +24,13 @@ void Input::handleTextEvent(sf::String* pstr, sf::Uint32 unicode, int max) {
 	}
 }
 
-sf::String Input::handleTextEvent(sf::String str, sf::Uint32 unicode, int max) {
+sf::String Input::handleTextEvent(sf::String str, sf::Uint32 unicode, size_t max) {
 
 	char c = static_cast<char>(unicode);
 
 	if (str.getSize() < max
-		&& ((c > 0x30) && (c < 0x7a))) {
+		&& ((c > 0x30) && (c < 0x7a)))
+	{
 		str += c;
 	}
 	// handle backspace

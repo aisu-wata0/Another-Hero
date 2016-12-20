@@ -1,6 +1,6 @@
 #pragma once
 
-class Input 
+class Input
 {
 public:
 	//Adds unicode character to str received.
@@ -14,10 +14,10 @@ public:
 	//Adds unicode character to str received
 	//unless the str is of max size already.
 	//Backspace removes last character from string
-	static void handleTextEvent(sf::String* pstr, sf::Uint32 unicode, int max);
+	static void handleTextEvent(sf::String* pstr, sf::Uint32 unicode, size_t max);
 
 	//Adds unicode character to str received
 	//unless the str is of max size already.
 	//Backspace removes last character from string
-	static sf::String handleTextEvent(sf::String str, sf::Uint32 unicode, int max);
+	static sf::String handleTextEvent(sf::String str, sf::Uint32 unicode, size_t max);
 };

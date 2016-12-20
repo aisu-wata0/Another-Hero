@@ -28,7 +28,7 @@ void Character::move(int X, int Y)
 	sprite.setPosition(
 		(float)position_.x * kTileSizef,
 		(float)position_.y * kTileSizef);
-}
+} // Todo, make a Player class
 
 const sf::Vector2i& Character::getPosition()
 {
