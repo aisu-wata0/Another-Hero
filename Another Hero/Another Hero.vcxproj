@@ -88,7 +88,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -105,7 +105,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -121,7 +121,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,7 +141,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,35 +151,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="Fonts\NOTICE.txt" />
     <Text Include="Textures\Icons34x34byAilsEnglish2013\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="character.h" />
-    <ClInclude Include="encounter.h" />
-    <ClInclude Include="input.h" />
+    <ClInclude Include="Sources\character.h" />
+    <ClInclude Include="Sources\States\encounter.h" />
+    <ClInclude Include="Sources\input.h" />
     <ClInclude Include="Sources\party.h" />
-    <ClInclude Include="start.h" />
-    <ClInclude Include="stats.h" />
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
-    <ClInclude Include="another_hero.h" />
-    <ClInclude Include="world.h" />
+    <ClInclude Include="Sources\States\start.h" />
+    <ClInclude Include="Sources\stats.h" />
+    <ClInclude Include="Sources\stdafx.h" />
+    <ClInclude Include="Sources\targetver.h" />
+    <ClInclude Include="Sources\another_hero.h" />
+    <ClInclude Include="Sources\States\world.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="another_hero.cpp" />
-    <ClCompile Include="character.cpp" />
-    <ClCompile Include="encounter.cpp" />
-    <ClCompile Include="input.cpp" />
+    <ClCompile Include="Sources\another_hero.cpp" />
+    <ClCompile Include="Sources\character.cpp" />
+    <ClCompile Include="Sources\States\encounter.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="Sources\input.cpp" />
     <ClCompile Include="Sources\party.cpp" />
-    <ClCompile Include="start.cpp" />
-    <ClCompile Include="stats.cpp" />
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="Sources\States\start.cpp" />
+    <ClCompile Include="Sources\stats.cpp" />
+    <ClCompile Include="Sources\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="world.cpp" />
+    <ClCompile Include="Sources\States\world.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Medal01.png" />
@@ -588,6 +594,25 @@
   </ItemGroup>
   <ItemGroup>
     <Font Include="Fonts\calibri.ttf" />
+    <Font Include="Fonts\Roboto-Black.ttf" />
+    <Font Include="Fonts\Roboto-BlackItalic.ttf" />
+    <Font Include="Fonts\Roboto-Bold.ttf" />
+    <Font Include="Fonts\Roboto-BoldCondensed.ttf" />
+    <Font Include="Fonts\Roboto-BoldCondensedItalic.ttf" />
+    <Font Include="Fonts\Roboto-BoldItalic.ttf" />
+    <Font Include="Fonts\Roboto-Condensed.ttf" />
+    <Font Include="Fonts\Roboto-CondensedItalic.ttf" />
+    <Font Include="Fonts\Roboto-Italic.ttf" />
+    <Font Include="Fonts\Roboto-Light.ttf" />
+    <Font Include="Fonts\Roboto-LightItalic.ttf" />
+    <Font Include="Fonts\Roboto-Medium.ttf" />
+    <Font Include="Fonts\Roboto-MediumItalic.ttf" />
+    <Font Include="Fonts\Roboto-Regular.ttf" />
+    <Font Include="Fonts\Roboto-Thin.ttf" />
+    <Font Include="Fonts\Roboto-ThinItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fonts\Roboto_Specimen_Book.pdf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

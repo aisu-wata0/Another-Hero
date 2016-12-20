@@ -18,65 +18,66 @@
     <Text Include="Textures\Icons34x34byAilsEnglish2013\Readme.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="Fonts\NOTICE.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="world.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="stats.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="start.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="encounter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="character.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="another_hero.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="input.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Sources\party.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Sources\another_hero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\stats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\States\start.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\States\world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\States\encounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="another_hero.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="world.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="stats.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="start.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="encounter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="character.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="input.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Sources\party.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\another_hero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\States\start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\States\world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\States\encounter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1293,5 +1294,24 @@
   </ItemGroup>
   <ItemGroup>
     <Font Include="Fonts\calibri.ttf" />
+    <Font Include="Fonts\Roboto-ThinItalic.ttf" />
+    <Font Include="Fonts\Roboto-Black.ttf" />
+    <Font Include="Fonts\Roboto-BlackItalic.ttf" />
+    <Font Include="Fonts\Roboto-Bold.ttf" />
+    <Font Include="Fonts\Roboto-BoldCondensed.ttf" />
+    <Font Include="Fonts\Roboto-BoldCondensedItalic.ttf" />
+    <Font Include="Fonts\Roboto-BoldItalic.ttf" />
+    <Font Include="Fonts\Roboto-Condensed.ttf" />
+    <Font Include="Fonts\Roboto-CondensedItalic.ttf" />
+    <Font Include="Fonts\Roboto-Italic.ttf" />
+    <Font Include="Fonts\Roboto-Light.ttf" />
+    <Font Include="Fonts\Roboto-LightItalic.ttf" />
+    <Font Include="Fonts\Roboto-Medium.ttf" />
+    <Font Include="Fonts\Roboto-MediumItalic.ttf" />
+    <Font Include="Fonts\Roboto-Regular.ttf" />
+    <Font Include="Fonts\Roboto-Thin.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fonts\Roboto_Specimen_Book.pdf" />
   </ItemGroup>
 </Project>
