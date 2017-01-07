@@ -1,5 +1,8 @@
 #pragma once
 
+#include "stats.h"
+
+
 class Character
 {
 	Stats stats_;
@@ -12,6 +15,9 @@ public:
 
 	void levelUp();
 
+	float tile_size;
+	
+	void setTileSize(float size);
 	sf::RectangleShape sprite;
 	const sf::Vector2i& getPosition();
 	void setPosition(int, int);

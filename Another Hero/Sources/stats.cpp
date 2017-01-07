@@ -1,4 +1,5 @@
-#include "StdAfx.h"
+#include "stdAfx.h"
+#include "stats.h"
 
 void Stats::levelUp() 
 {

@@ -24,9 +24,6 @@
     <ClInclude Include="Sources\party.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\another_hero.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Sources\character.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -42,21 +39,24 @@
     <ClInclude Include="Sources\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\States\start.h">
+    <ClInclude Include="Sources\gameengine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\States\world.h">
+    <ClInclude Include="Sources\gamestate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\States\encounter.h">
+    <ClInclude Include="Sources\States\introstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\States\playstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\States\encounterstate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Sources\party.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\another_hero.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Sources\character.cpp">
@@ -71,13 +71,19 @@
     <ClCompile Include="Sources\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\States\start.cpp">
+    <ClCompile Include="Sources\gameengine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\States\world.cpp">
+    <ClCompile Include="Sources\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\States\encounter.cpp">
+    <ClCompile Include="Sources\States\introstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\States\playstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\States\encounterstate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

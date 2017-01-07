@@ -156,20 +156,24 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sources\character.h" />
-    <ClInclude Include="Sources\States\encounter.h" />
+    <ClInclude Include="Sources\gameengine.h" />
+    <ClInclude Include="Sources\gamestate.h" />
+    <ClInclude Include="Sources\States\introstate.h" />
+    <ClInclude Include="Sources\States\playstate.h" />
+    <ClInclude Include="Sources\States\encounterstate.h" />
     <ClInclude Include="Sources\input.h" />
     <ClInclude Include="Sources\party.h" />
-    <ClInclude Include="Sources\States\start.h" />
     <ClInclude Include="Sources\stats.h" />
     <ClInclude Include="Sources\stdafx.h" />
     <ClInclude Include="Sources\targetver.h" />
-    <ClInclude Include="Sources\another_hero.h" />
-    <ClInclude Include="Sources\States\world.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sources\another_hero.cpp" />
     <ClCompile Include="Sources\character.cpp" />
-    <ClCompile Include="Sources\States\encounter.cpp">
+    <ClCompile Include="Sources\gameengine.cpp" />
+    <ClCompile Include="Sources\States\introstate.cpp" />
+    <ClCompile Include="Sources\main.cpp" />
+    <ClCompile Include="Sources\States\playstate.cpp" />
+    <ClCompile Include="Sources\States\encounterstate.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\sfml\include;$(ProjectDir)/Sources;$(ProjectDir)/Sources/States;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -177,7 +181,6 @@
     </ClCompile>
     <ClCompile Include="Sources\input.cpp" />
     <ClCompile Include="Sources\party.cpp" />
-    <ClCompile Include="Sources\States\start.cpp" />
     <ClCompile Include="Sources\stats.cpp" />
     <ClCompile Include="Sources\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -185,7 +188,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Sources\States\world.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Textures\Icons34x34byAilsEnglish2013\Ac_Medal01.png" />

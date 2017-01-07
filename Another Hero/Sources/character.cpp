@@ -1,4 +1,5 @@
-#include "StdAfx.h"
+#include "stdAfx.h"
+#include "character.h"
 
 void Character::levelUp()
 {
@@ -14,8 +15,8 @@ void Character::setPosition(int X, int Y)
 
 	// changes sprite position_
 	sprite.setPosition(
-		(float)position_.x * kTileSizef,
-		(float)position_.y * kTileSizef);
+		(float)position_.x * tile_size,
+		(float)position_.y * tile_size);
 }
 
 void Character::move(int X, int Y)
@@ -26,9 +27,15 @@ void Character::move(int X, int Y)
 
 	// changes sprite position_
 	sprite.setPosition(
-		(float)position_.x * kTileSizef,
-		(float)position_.y * kTileSizef);
+		(float)position_.x * tile_size,
+		(float)position_.y * tile_size);
 } // Todo, make a Player class
+
+void Character::setTileSize(float size)
+{
+	tile_size = size;
+	setPosition(position_.x, position_.y);
+}
 
 const sf::Vector2i& Character::getPosition()
 {
